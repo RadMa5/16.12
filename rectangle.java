@@ -3,15 +3,8 @@ public class rectangle extends Geometry {
             return width * height;
     }
 
-    public static Double calculateArea(double width){
-            return square.calculateArea(width);
-    }
-
     public static Double calculatePerimeter(double width, double height){
         return width * 2 + height * 2;
-    }
-    public static Double calculatePerimeter(double width){
-        return square.calculatePerimeter(width);
     }
 
     public class square {

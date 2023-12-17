@@ -4,5 +4,7 @@ public class Main {
         Geometry.circlePerimeter(5);
         Geometry.rectangleArea(4, 5);
         Geometry.rectanglePerimeter(4, 5);
+        Geometry.rectangleArea(4.0);
+        Geometry.rectanglePerimeter(4.0);
     }
 }
